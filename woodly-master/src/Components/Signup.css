@@ -1,0 +1,41 @@
+body {
+  background-color: #fefdfb;
+  color: #3e2c20;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.signup {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #FDF6EC;
+  box-shadow: 0 4px 20px rgba(93, 58, 26, 0.1);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 5px solid #7F461B;
+}
+
+.signup .MuiTextField-root {
+  width: 100%;
+}
+
+.signup .MuiButton-root {
+  width: 100%;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 10px 0;
+  text-transform: none;
+  font-weight: 600;
+  border-color: #7F461B;
+  color: #7F461B;
+  background-color: transparent;
+  transition: all 0.2s ease;
+}
+
+.signup .MuiButton-root:hover {
+  background-color: #7F461B;
+  color: #FDF6EC;
+}
